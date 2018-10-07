@@ -361,4 +361,4 @@ client.on('guildCreate', guild => {
 })
 
 
-client.login(ayarlar.token);
+client.login(procces.env.BOT_TOKEN);
